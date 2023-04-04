@@ -21,14 +21,15 @@ nav {
     
 }
 
-nav span {
+nav a {
     margin: 10px;
     padding: 5px;
     transition: 0.5s ease-in-out;
     color: rgb(255, 195, 161);
+    text-decoration: none;
 }
 
-nav span:hover {
+nav a:hover {
     cursor: pointer;
     color: rgba(255, 255, 255, 0.751);
 }
