@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(167, 93, 93);
+    margin: 0;
+}
+
+header {
+    background-color: rgb(167, 93, 93);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+nav { 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px; 
+    
+}
+
+nav span {
+    margin: 10px;
+    padding: 5px;
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 195, 161);
+}
+
+nav span:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.751);
+}
+
+#photo {
+    display: block;
+    margin: 0 auto;
+    width: 100vw;
+}
+
+.welcome {
+    background-color: rgba(0, 0, 0, 0.559);
+    position: absolute;
+    z-index: 1; 
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    max-width: 100vw;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.welcome p{
+    margin: 20px;
+}
+
+img, .welcome {
+    height: 550px;
+    max-width: 100vw;
+}
+
+#list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    grid-gap: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+.border {
+    height: calc(100% - 20px);
+    width: 330px;
+    background-color: rgba(255, 255, 255, 0.621);
+    padding-top: 15px;
+}
+
+.border, .card {
+    display: grid;
+    justify-self: center;
+    border-radius: 8%;
+    padding: 0;
+    margin: 20px;
+}
+
+.card {
+    background-color: rgba(240, 154, 125, 0.712);
+    height: auto;
+    width: 350px;
+}
+
+.border p, .border strong, .border li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border strong{
+    border-bottom: 1px solid black;
+}
+
+.border strong:first-of-type {
+    margin-top: 10px;
+}
+
+.border ul{
+    list-style-type: none;
+    flex-direction: column;
+    padding: 0;
+}
+
+main {
+    overflow: hidden;
+}
