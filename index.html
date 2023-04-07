@@ -1,138 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MyPetSpotlight</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <nav>
-        <a href="https://github.com/gabrysia694/MyPetSpotlight" target="_blank"
-          >Add your pet!</a
-        >
-      </nav>
-    </header>
-    <main>
-      <div class="welcome">
-        <h2>Welcome to MyPetSpotlight!</h2>
-        <p>Welcome to our pet lovers community!</p>
-        <p>
-          We are excited to provide you with a platform where you can showcase
-          your furry friends and their unique personalities. Our website allows
-          you to submit your pet's name, age, and favourite toy, giving them the
-          spotlight they deserve. Whether you have a playful pup or a lazy
-          feline, we want to see them all! Join us in celebrating the love and
-          joy that our pets bring into our lives.
-        </p>
-        <p>
-          Submit your pet's information now and share their story with the
-          world!
-        </p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MyPetSpotlight</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="https://github.com/gabrysia694/MyPetSpotlight" target="_blank">Add your pet!</a>
+    </nav>
+  </header>
+  <main>
+    <div class="welcome">
+      <h2>Welcome to MyPetSpotlight!</h2>
+      <p>Welcome to our pet lovers community!</p>
+      <p>
+        We are excited to provide you with a platform where you can showcase
+        your furry friends and their unique personalities. Our website allows
+        you to submit your pet's name, age, and favourite toy, giving them the
+        spotlight they deserve. Whether you have a playful pup or a lazy
+        feline, we want to see them all! Join us in celebrating the love and
+        joy that our pets bring into our lives.
+      </p>
+      <p>
+        Submit your pet's information now and share their story with the
+        world!
+      </p>
+    </div>
+    <img id="photo" alt="cute animal photos" />
+    <div class="slider">
+      <img src="cat.jpg" style="display: none" />
+      <img src="dog.jpg" style="display: none" />
+      <img src="hamster.jpg" style="display: none" />
+    </div>
+    <div id="list">
+      <div class="card">
+        <div class="border">
+          <strong> Name: </strong>
+          <p>Luna</p>
+          <strong> Type of animal: </strong>
+          <p>Cat</p>
+          <strong> Age: </strong>
+          <p>4 years</p>
+          <strong> Personality: </strong>
+          <ul>
+            <li>Curious</li>
+            <li>Affectionate</li>
+          </ul>
+          <strong> Favourite toy: </strong>
+          <p>Mouse</p>
+        </div>
       </div>
-      <img id="photo" alt="cute animal photos" />
-      <div class="slider">
-        <img src="cat.jpg" style="display: none" />
-        <img src="dog.jpg" style="display: none" />
-        <img src="hamster.jpg" style="display: none" />
+      <div class="card">
+        <div class="border">
+          <strong> Name: </strong>
+          <p>Gruba</p>
+          <strong> Type of animal: </strong>
+          <p>Cat</p>
+          <strong> Age: </strong>
+          <p>3 years</p>
+          <strong> Personality: </strong>
+          <ul>
+            <li>Lazy</li>
+            <li>Sleepy</li>
+            <li>Vocal</li>
+          </ul>
+          <strong> Favourite toy: </strong>
+          <p>Shoe lace</p>
+        </div>
       </div>
-      <div id="list">
-        <div class="card">
-          <div class="border">
-            <strong> Name: </strong>
-            <p>Luna</p>
-            <strong> Type of animal: </strong>
-            <p>Cat</p>
-            <strong> Age: </strong>
-            <p>4 years</p>
-            <strong> Personality: </strong>
-            <ul>
-              <li>Curious</li>
-              <li>Affectionate</li>
-            </ul>
-            <strong> Favourite toy: </strong>
-            <p>Mouse</p>
-          </div>
+      <!-- Add your pet below -->
+      <div class="card">
+        <div class="border">
+          <strong> Name: </strong>
+          <p>Cooper</p>
+          <strong> Type of animal: </strong>
+          <p>Dog</p>
+          <strong> Age: </strong>
+          <p>5 years</p>
+          <strong> Personality: </strong>
+          <ul>
+            <li>Loyal</li>
+            <li>Protective</li>
+            <li>Friendly</li>
+          </ul>
+          <strong> Favourite toy: </strong>
+          <p>Chew Rope</p>
         </div>
-        <div class="card">
-          <div class="border">
-            <strong> Name: </strong>
-            <p>Gruba</p>
-            <strong> Type of animal: </strong>
-            <p>Cat</p>
-            <strong> Age: </strong>
-            <p>3 years</p>
-            <strong> Personality: </strong>
-            <ul>
-              <li>Lazy</li>
-              <li>Sleepy</li>
-              <li>Vocal</li>
-            </ul>
-            <strong> Favourite toy: </strong>
-            <p>Shoe lace</p>
-          </div>
-        </div>
-        <!-- Add your pet below -->
-        <div class="card">
-          <div class="border">
-            <strong> Name: </strong>
-            <p>Cooper</p>
-            <strong> Type of animal: </strong>
-            <p>Dog</p>
-            <strong> Age: </strong>
-            <p>5 years</p>
-            <strong> Personality: </strong>
-            <ul>
-              <li>Loyal</li>
-              <li>Protective</li>
-              <li>Friendly</li>
-            </ul>
-            <strong> Favourite toy: </strong>
-            <p>Chew Rope</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="border">
-            <strong> Name: </strong>
-            <p>Bubble</p>
-            <strong> Type of animal: </strong>
-            <p>Goldfish</p>
-            <strong> Age: </strong>
-            <p>2 years</p>
-            <strong> Personality: </strong>
-            <ul>
-              <li>Social Playful</li>
-              <li>Adptable</li>
-              <li>Lazy</li>
-            </ul>
-            <strong> Favourite toy: </strong>
-            <p>Ping Pong Balls.</p>
-          </div>
-        </div>
-        
-        <div class="card">
-          <div class="border">
-            <strong> Name: </strong>
-            <p>Sheru</p>
-            <strong> Type of animal: </strong>
-            <p>Dog</p>
-            <strong> Age: </strong>
-            <p>3 years</p>
-            <strong> Personality: </strong>
-            <ul>
-              <li>Social</li>
-              <li>Active</li>
-              <li>Protective</li>
-            </ul>
-            <strong> Favourite toy: </strong>
-            <p>Chappal</p>
-          </div>
-        </div>
-        <!-- Add your pet above -->
       </div>
-    </main>
-    <script src="java.js"></script>
-  </body>
+      <div class="card">
+        <div class="border">
+          <strong> Name: </strong>
+          <p>Bubble</p>
+          <strong> Type of animal: </strong>
+          <p>Goldfish</p>
+          <strong> Age: </strong>
+          <p>2 years</p>
+          <strong> Personality: </strong>
+          <ul>
+            <li>Social Playful</li>
+            <li>Adptable</li>
+            <li>Lazy</li>
+          </ul>
+          <strong> Favourite toy: </strong>
+          <p>Ping Pong Balls.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="border">
+          <strong> Name: </strong>
+          <p>Sheru</p>
+          <strong> Type of animal: </strong>
+          <p>Dog</p>
+          <strong> Age: </strong>
+          <p>3 years</p>
+          <strong> Personality: </strong>
+          <ul>
+            <li>Social</li>
+            <li>Active</li>
+            <li>Protective</li>
+          </ul>
+          <strong> Favourite toy: </strong>
+          <p>Chappal</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="border">
+          <strong> Name: </strong>
+          <p>Spot</p>
+          <strong> Type of animal: </strong>
+          <p>Dog</p>
+          <strong> Age: </strong>
+          <p>2 years</p>
+          <strong> Personality: </strong>
+          <ul>
+            <li>Playful</li>
+            <li>Intelligent</li>
+            <li>Friendly</li>
+            <li>Loyal</li>
+          </ul>
+          <strong> Favourite toy: </strong>
+          <p>Tennis Ball</p>
+        </div>
+      </div>
+
+      <!-- Add your pet above -->
+    </div>
+  </main>
+  <script src="java.js"></script>
+</body>
+
 </html>
