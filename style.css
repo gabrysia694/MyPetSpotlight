@@ -13,12 +13,11 @@ header {
     z-index: 2;
 }
 
-nav { 
+nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: 50px; 
-    
 }
 
 nav a {
@@ -38,20 +37,18 @@ nav a:hover {
     display: block;
     margin: 0 auto;
     width: 100vw;
+    object-fit: cover;
 }
 
 .welcome {
     background-color: rgba(0, 0, 0, 0.559);
     position: absolute;
-    z-index: 1; 
+    z-index: 1;
     margin-left: auto;
     margin-right: auto;
     left: 0;
     right: 0;
     max-width: 100vw;
-}
-
-.welcome {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -61,6 +58,10 @@ nav a:hover {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* .welcome {
+
+} */
 
 .welcome p{
     margin: 20px;
@@ -79,7 +80,27 @@ img, .welcome {
     justify-content: center;
 }
 
-.border {
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 350px; /* adjust the width as needed */
+  height: auto;
+  border-radius: 6%;
+  background-color: rgba(240, 154, 125, 0.712);
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px; /* adjust the height as needed */
+  max-height: 300px;
+  object-fit: cover;
+  border-top-left-radius: 8%;
+  border-top-right-radius: 8%;
+}
+
+/* .border {
     height: calc(100% - 20px);
     width: 330px;
     background-color: rgba(255, 255, 255, 0.621);
@@ -118,8 +139,46 @@ img, .welcome {
     list-style-type: none;
     flex-direction: column;
     padding: 0;
-}
+} */
 
 main {
     overflow: hidden;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card .border {
+  height: calc(100% - 20px);
+  width: 330px;
+  background-color: rgba(255, 255, 255, 0.621);
+  padding-top: 15px;
+  display: grid;
+  justify-self: center;
+  border-radius: 8%;
+  padding: 0;
+  margin: 20px;
+}
+
+.card .border p, .card .border strong, .card .border li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card .border strong {
+  border-bottom: 1px solid black;
+}
+
+.card .border strong:first-of-type {
+  margin-top: 10px;
+}
+
+.card .border ul {
+  list-style-type: none;
+  flex-direction: column;
+  padding: 0;
 }
