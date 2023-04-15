@@ -25,8 +25,8 @@ Template:
 </div>
 ```
 
-Please fill out the following template by providing a name of your pet, type of the animal, age in years, couple personality traits and a favourite toy.
-Then add your code below the commented location within the `index.html` file.
-Share a picture of your pet by simply uploading it to the assets/images folder and then include the link along with a description in the `<img src="" alt="">`.
+Please fill out the following template by providing a name of your pet, type of the animal, age in years, couple personality traits and a favourite toy. <br>
+Then add your code below the commented location within the `index.html` file. <br>
+Share a picture of your pet by simply uploading it to the assets/images folder and then include the link along with a description in the <br> `<img src="" alt="">`.
 
 Thank you for contributing to MyPetSpotlight!
