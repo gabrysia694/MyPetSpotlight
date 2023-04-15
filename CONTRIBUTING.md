@@ -7,6 +7,7 @@ Template:
 ```
 <div class="card">
   <div class="border">
+      <img src="./assets/images/nameofyourpicture.jpg" alt="description of your picture">
       <strong> Name: </strong>
       <p> </p>
       <strong> Type of animal: </strong>
@@ -26,5 +27,6 @@ Template:
 
 Please fill out the following template by providing a name of your pet, type of the animal, age in years, couple personality traits and a favourite toy.
 Then add your code below the commented location within the `index.html` file.
+Share a picture of your pet by simply uploading it to the assets/images folder and then include the link along with a description in the `<img src="" alt="">`.
 
 Thank you for contributing to MyPetSpotlight!
