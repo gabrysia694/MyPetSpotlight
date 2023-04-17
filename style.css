@@ -182,3 +182,112 @@ main {
   flex-direction: column;
   padding: 0;
 }
+
+footer{
+    background-color: rgba(240, 154, 125, 0.712);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5); 
+    height: 115px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    font-size: 20px;
+    margin-left: 5rem;
+}
+
+.footer-line{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-media{
+    display: flex;
+}
+
+.social-media p{
+    font-size: 20px;
+}
+
+.social-media ul {
+    display: flex;
+    list-style-type: none;
+    margin-right: 3rem;
+}
+
+.list-item{
+    margin-right: 1rem;
+    margin-top: 5px;
+}
+
+.list-item:hover .fa-facebook {
+    color: #3b5998;
+}
+
+.list-item:hover .fa-twitter {
+    color: #1da1f2;
+}
+
+.list-item:hover .fa-tiktok {
+    color: #000000;
+}
+
+.list-item:hover .fa-instagram {
+    color: #e1306c;
+}
+
+.list-item:hover .fa-github {
+    color: #333333;
+}
+
+.social-media ul li i{
+    color: rgba(255, 255, 255, 0.621);
+    background-color: #f06d58;
+}
+
+.copyright{
+    background-color: rgba(255, 170, 141, 0.712);
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    margin-top: 10px;
+}
+
+
+@media (max-width: 767px) {
+    .logo {
+        display: none;
+    }
+    
+    .social-media ul {
+      margin-right: 1rem;
+      margin-top: 3px;
+    }
+
+    .list-item{
+        margin-top: 17px;
+    }
+    
+    .list-item i {
+      font-size: 24px; 
+    }
+    
+    .footer-line {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .social-media {
+      margin-top: 1rem;
+    }
+    .social-media p{
+        font-size: 20px;
+    }
+    .copyright{
+        font-size: small;
+        margin-top: 3px;
+    }
+}
+
+  
+  
