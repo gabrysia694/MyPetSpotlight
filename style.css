@@ -33,6 +33,26 @@ nav a:hover {
     color: rgba(255, 255, 255, 0.751);
 }
 
+.navbar-button {
+  background-color: rgb(240,154,125,0.712);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 8px 2px;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.navbar-button:hover {
+  background-color: rgb(210, 125, 125);
+  color: white;
+}
+
 #photo {
     display: block;
     margin: 0 auto;
