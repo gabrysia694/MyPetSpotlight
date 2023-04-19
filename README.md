@@ -30,7 +30,7 @@ Once your profile is created, you can share it with your friends and family thro
 
 # Contributing ✨
 
-We welcome contributions from the community to help improve My Pet Spotlight. If you have any ideas for new features or would like to report a bug, please submit an issue on our GitHub repository at https://github.com/mypetspotlight/mypetspotlight. 
+We welcome contributions from the community to help improve My Pet Spotlight. If you have any ideas for new features or would like to report a bug, please submit an issue on our GitHub repository at https://github.com/gabrysia694/MyPetSpotlight. 
 
 If you would like to contribute code to the project, please fork our repository and submit a pull request. We appreciate all contributions and will review them in a timely manner.
 <strong> How to Contribute </strong>
@@ -51,7 +51,7 @@ If you have any questions or need help with My Pet Spotlight, please contact us 
 
 # Credits
 
-- [Gabrysi](https://github.com/gabrysia694)
+- [Gabrysia](https://github.com/gabrysia694)
 
 # License 📝
 
