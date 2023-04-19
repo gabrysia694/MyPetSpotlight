@@ -18,7 +18,7 @@ Share your pet's story with the world and connect with other pet owners.
 
 To get started with My Pet Spotlight, simply visit our website at https://mypetspotlight.netlify.app/. From there, you can browse through existing pet profiles or create your own. 
 
-To create a pet profile, click the "Create a Profile" button and fill out the form with your pet's information, including their name, breed, age, and a photo. You can also add a short description and include fun facts about your pet to personalize their profile.
+To create a pet profile, click the "Add your pet" button and contribute with your pet's information, including their name, breed, age, and a photo.
 
 Once your profile is created, you can share it with your friends and family through social media. You can also view and interact with other pet profiles on our website.
 
