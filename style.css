@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Tilt+Prism&family=Ubuntu:wght@300&display=swap');
 
+/* CSS for Scrollbar */
+
 ::-webkit-scrollbar{
     width: 10px;
     color: transparent;
@@ -16,6 +18,8 @@
     border-radius: 6px;
 }
 
+/* CSS of all classes in the same order of HTML  */
+
 body {
     overflow-x: hidden;
     background: #161623;
@@ -24,12 +28,11 @@ body {
 
 .swiper {
     width: 100%;
-    /* height: 500px; */
     position: absolute;
     top: 0;
-    /* right: 0; */
     z-index: -1;
   }
+
 .swiper-slide img {
     height: 100vh;
     width: 100%;
@@ -37,54 +40,6 @@ body {
     display: flex; 
     justify-content: center; 
     object-fit: cover;
-}
-
-nav {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    height: 50px;
-}
-
-nav a {
-    margin: 10px;
-    padding: 5px;
-    transition: 0.5s ease-in-out;
-    color: rgb(255, 195, 161);
-    text-decoration: none;
-}
-
-nav a:hover {
-    cursor: pointer;
-    color: rgba(255, 255, 255, 0.751);
-}
-
-.navbar-button {
-    background-color: rgb(240, 154, 125, 0.712);
-    border: none;
-    border-radius: 15px;
-    color: white;
-    font-weight: bold;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 25px;
-    margin: 10px 2px;
-    cursor: pointer;
-    transition-duration: 0.5s;
-}
-
-.navbar-button:hover {
-    background-color: rgb(210, 125, 125);
-    color: white;
-}
-
-#photo {
-    display: block;
-    margin: 0 auto 56px auto;
-    width: 100vw;
-    object-fit: cover;
-    height: 100vh;
 }
 
 .welcome {
@@ -142,10 +97,54 @@ nav a:hover {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-img{
-    height: 550px;
-    max-width: 100vw;
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
 }
+
+nav a {
+    margin: 10px;
+    padding: 5px;
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 195, 161);
+    text-decoration: none;
+}
+
+nav a:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.751);
+}
+
+.navbar-button {
+    background-color: rgb(240, 154, 125, 0.712);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    margin: 10px 2px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.navbar-button:hover {
+    background-color: rgb(210, 125, 125);
+    color: white;
+}
+
+#photo {
+    display: block;
+    margin: 0 auto 56px auto;
+    width: 100vw;
+    object-fit: cover;
+    height: 100vh;
+}
+
 
 #list {
     display: flex;
@@ -155,7 +154,6 @@ img{
     grid-template-columns: repeat(auto-fill, 350px);
     grid-gap: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    /* justify-content: center; */
 }
 
 .card {
@@ -170,7 +168,6 @@ img{
     height: 570px;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.1);
-    /* box-shadow: -15px 17px 17px rgba(10, 10, 10, 0.25); */
     box-shadow: 0 0 5px #7373b7f9,
     0 0 6px #7373b7f9,
     0 0 10px #7373b7f9,
@@ -205,58 +202,17 @@ img{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-/* .border {
-    height: calc(100% - 20px);
-    width: 330px;
-    background-color: rgba(255, 255, 255, 0.621);
-    padding-top: 15px;
-}
-
-.border, .card {
-    display: grid;
-    justify-self: center;
-    border-radius: 8%;
-    padding: 0;
-    margin: 20px;
-}
-
-.card {
-    background-color: rgba(240, 154, 125, 0.712);
-    height: auto;
-    width: 350px;
-}
-
-.border p, .border strong, .border li {
+.card .content .personality{
     display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.border strong{
-    border-bottom: 1px solid black;
-}
-
-.border strong:first-of-type {
-    margin-top: 10px;
-}
-
-.border ul{
-    list-style-type: none;
     flex-direction: column;
-    padding: 0;
-} */
+    align-items: center;
+}
 
 .card .content ul {
     padding: 5px;
     margin: 7px auto auto;
     line-height: 29px;
     flex-direction: column;
-}
-
-.card .content .personality{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 footer {
@@ -332,7 +288,7 @@ footer {
     font-size: 14px;
 }
 
-
+/* Media Queiries */
 
 
 @media (max-width: 833px) {
