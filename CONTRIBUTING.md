@@ -9,21 +9,21 @@ Template:
 <div class="card">
       <img src="./assets/images/nameofyourpicture.jpg" alt="description of your picture">
       <div class="content">
-        <div>
+        <div class="name">
           <strong> Name: </strong>
           <span> </span>
         </div>
-        <br>
-        <div>
+        
+        <div class="animal">
           <strong> Type of animal: </strong>
           <span> </span>
         </div>
-        <br>
-        <div>
+        
+        <div class="age">
           <strong> Age: </strong>
           <span> years</span>
         </div>
-        <br>
+        
         <div class="personality">
           <strong> Personality: </strong>
           <ul>
@@ -31,12 +31,17 @@ Template:
             <li> </li>
           </ul>
         </div>
-        <br>
-        <div>
+        
+        <div class="toy">
           <strong> Favourite toy: </strong>
           <span> </span>
         </div>
-      </div>
+
+        <div class="owner">
+          <strong> Owner: </strong>
+          <span> <a href="https://github.com/your-username"> Your First Name </a> </span>
+        </div>
+      </div>  
     </div>
 
 ```
