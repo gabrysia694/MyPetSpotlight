@@ -6,129 +6,213 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MyPetSpotlight</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <link rel="stylesheet" href="style.css" />
   <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@44659d9/css/all.css" rel="stylesheet"
     type="text/css" />
-
 </head>
 
 <body>
-  <header>
+
+  <!-- SLider  -->
+
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" id="s1"> <img src="./assets/slider_img/cat.jpg" alt="" srcset=""> </div>
+      <div class="swiper-slide" id="s2"> <img src="./assets/slider_img/dog.jpg" alt="" srcset=""> </div>
+      <div class="swiper-slide" id="s3"> <img src="./assets/slider_img/hamster1.jpg" alt="" srcset=""> </div>
+      <div class="swiper-slide" id="s4"> <img src="./assets/slider_img/dog1.jpg" alt="" srcset=""> </div>
+      <div class="swiper-slide" id="s3"> <img src="./assets/slider_img/hamster.jpg" alt="" srcset=""> </div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Introduction -->
+
+  <div class="welcome">
+
+    <h2>Welcome to MyPetSpotlight!</h2>
+    <p id="petcommunity">Welcome to our pet lovers community!</p>
+    <p id="describe">
+      We are excited to provide you with a platform where you can showcase
+      your furry friends and their unique personalities. Our website allows
+      you to submit your pet's name, age, and favourite toy, giving them the
+      spotlight they deserve. Whether you have a playful pup or a lazy
+      feline, we want to see them all! Join us in celebrating the love and
+      joy that our pets bring into our lives.
+    </p>
+    <p id="submit">
+      Submit your pet's information now and share their story with the
+      world!
+    </p>
     <nav>
       <a class="navbar-button" href="https://github.com/gabrysia694/MyPetSpotlight" target="_blank">
         Add your pet!
       </a>
     </nav>
-  </header>
-  <main>
-    <div class="welcome">
-      <h2>Welcome to MyPetSpotlight!</h2>
-      <p>Welcome to our pet lovers community!</p>
-      <p>
-        We are excited to provide you with a platform where you can showcase
-        your furry friends and their unique personalities. Our website allows
-        you to submit your pet's name, age, and favourite toy, giving them the
-        spotlight they deserve. Whether you have a playful pup or a lazy
-        feline, we want to see them all! Join us in celebrating the love and
-        joy that our pets bring into our lives.
-      </p>
-      <p>
-        Submit your pet's information now and share their story with the
-        world!
-      </p>
-    </div>
-    <img id="photo" alt="cute animal photos" />
-    <div class="slider">
-      <img src="cat.jpg" style="display: none" />
-      <img src="dog.jpg" style="display: none" />
-      <img src="hamster.jpg" style="display: none" />
-    </div>
-    <div id="list">
-      <div class="card">
-        <div class="border">
-          <img src="./assets/images/luna.jpg" alt="Luna the cat">
+  </div>
+  <img id="photo" alt="" />
+
+  <!-- Cards of Pets -->
+
+  <div id="list">
+
+    <!-- Add your pet below -->
+
+    <div class="card">
+      <img src="./assets/images/luna.jpg" alt="Luna the cat">
+      <div class="content">
+        <div>
           <strong> Name: </strong>
-          <p>Luna</p>
+          <span>Luna</span>
+        </div>
+        <br>
+        <div>
           <strong> Type of animal: </strong>
-          <p>Cat</p>
+          <span>Cat</span>
+        </div>
+        <br>
+        <div>
           <strong> Age: </strong>
-          <p>4 years</p>
+          <span>4 years</span>
+        </div>
+        <br>
+        <div class="personality">
           <strong> Personality: </strong>
           <ul>
             <li>Curious</li>
             <li>Affectionate</li>
           </ul>
+        </div>
+        <br>
+        <div>
           <strong> Favourite toy: </strong>
-          <p>Mouse</p>
+          <span>Mouse</span>
         </div>
       </div>
-      <div class="card">
-        <div class="border">
-          <img src="./assets/images/gruba.PNG" alt="Gruba the cat">
+    </div>
+
+    <div class="card">
+      <img src="./assets/images/gruba.PNG" alt="Gruba the cat">
+      <div class="content">
+        <div>
           <strong> Name: </strong>
-          <p>Gruba</p>
+          <span>Gruba</span>
+        </div>
+        <br>
+        <div>
           <strong> Type of animal: </strong>
-          <p>Cat</p>
+          <span>Cat</span>
+        </div>
+        <br>
+        <div>
           <strong> Age: </strong>
-          <p>3 years</p>
+          <span>3 years</span>
+        </div>
+        <br>
+        <div class="personality">
           <strong> Personality: </strong>
           <ul>
             <li>Lazy</li>
             <li>Sleepy</li>
             <li>Vocal</li>
           </ul>
+        </div>
+        <br>
+        <div>
           <strong> Favourite toy: </strong>
-          <p>Shoe lace</p>
+          <span>Shoe lace</span>
         </div>
       </div>
-      <!-- Add your pet below -->
-      <div class="card">
-        <div class="border">
-          <img src="./assets/images/August.jpg" alt="August the cat">
+    </div>
+
+    <div class="card">
+      <img src="./assets/images/August.jpg" alt="August the cat">
+      <div class="content">
+        <div>
           <strong> Name: </strong>
-          <p>August</p>
+          <span>August</span>
+        </div>
+        <br>
+        <div>
           <strong> Type of animal: </strong>
-          <p>Cat</p>
+          <span>Cat</span>
+        </div>
+        <br>
+        <div>
           <strong> Age: </strong>
-          <p>2 years</p>
+          <span>2 years</span>
+        </div>
+        <br>
+        <div class="personality">
           <strong> Personality: </strong>
           <ul>
             <li>Playful</li>
             <li>Adaptable</li>
             <li>Quirky</li>
           </ul>
+        </div>
+        <br>
+        <div>
           <strong> Favourite toy: </strong>
-          <p>Foil ball</p>
+          <span>Foil Ball</span>
         </div>
       </div>
-      <div class="card">
-        <div class="border">
-          <img src="./assets/images/Cooper.jpg" alt="Cooper the Dog">
+    </div>
+
+    <div class="card">
+      <img src="./assets/images/Cooper.jpg" alt="Cooper the Dog">
+      <div class="content">
+        <div>
           <strong> Name: </strong>
-          <p>Cooper</p>
+          <span>Cooper</span>
+        </div>
+        <br>
+        <div>
           <strong> Type of animal: </strong>
-          <p>Dog</p>
+          <span>Dog</span>
+        </div>
+        <br>
+        <div>
           <strong> Age: </strong>
-          <p>5 years</p>
+          <span>5 years</span>
+        </div>
+        <br>
+        <div class="personality">
           <strong> Personality: </strong>
           <ul>
             <li>Loyal</li>
             <li>Protective</li>
             <li>Friendly</li>
           </ul>
+        </div>
+        <br>
+        <div>
           <strong> Favourite toy: </strong>
-          <p>Chew Rope</p>
+          <span>Chew Rope</span>
         </div>
       </div>
-      <div class="card">
-        <div class="border">
-          <img src="./assets/images/Goldfish.jpg" alt="Bubble the fish">
+    </div>
+
+    <div class="card">
+      <img src="./assets/images/Goldfish.jpg" alt="Bubble the fish">
+      <div class="content">
+        <div>
           <strong> Name: </strong>
-          <p>Bubble</p>
+          <span>Bubble</span>
+        </div>
+        <br>
+        <div>
           <strong> Type of animal: </strong>
-          <p>Goldfish</p>
+          <span>Goldfish</span>
+        </div>
+        <br>
+        <div>
           <strong> Age: </strong>
-          <p>2 years</p>
+          <span>2 years</span>
+        </div>
+        <br>
+        <div class="personality">
           <strong> Personality: </strong>
           <ul>
             <li>Social</li>
@@ -136,235 +220,411 @@
             <li>Adaptable</li>
             <li>Lazy</li>
           </ul>
+        </div>
+        <br>
+        <div>
           <strong> Favourite toy: </strong>
-          <p>Ping Pong Balls</p>
+          <span>Ping Pong Balls</span>
         </div>
       </div>
-      <div class="card">
-        <div class="border">
-          <img src="./assets/images/Sheru.jpg" alt="Sheru the Dog">
+    </div>
+
+    <div class="card">
+      <img src="./assets/images/Sheru.jpg" alt="Sheru the Dog">
+      <div class="content">
+        <div>
           <strong> Name: </strong>
-          <p>Sheru</p>
+          <span>Sheru</span>
+        </div>
+        <br>
+        <div>
           <strong> Type of animal: </strong>
-          <p>Dog</p>
+          <span>Dog</span>
+        </div>
+        <br>
+        <div>
           <strong> Age: </strong>
-          <p>3 years</p>
+          <span>3 years</span>
+        </div>
+        <br>
+        <div class="personality">
           <strong> Personality: </strong>
           <ul>
             <li>Social</li>
             <li>Active</li>
             <li>Protective</li>
           </ul>
+        </div>
+        <br>
+        <div>
           <strong> Favourite toy: </strong>
-          <p>Chappal</p>
+          <span>Chappal</span>
         </div>
       </div>
-      <div class="card">
-        <div class="border">
-          <img src="./assets/images/whiskeys1.jpg" alt="Whiskey the Dog">
+    </div>
+
+    <div class="card">
+      <img src="./assets/images/whiskeys1.jpg" alt="Whiskey the Dog">
+      <div class="content">
+        <div>
           <strong> Name: </strong>
-          <p>Whiskey</p>
+          <span>Whiskey</span>
+        </div>
+        <br>
+        <div>
           <strong> Type of animal: </strong>
-          <p>Dog</p>
+          <span>Dog</span>
+        </div>
+        <br>
+        <div>
           <strong> Age: </strong>
-          <p>2 years</p>
+          <span>2 years</span>
+        </div>
+        <br>
+        <div class="personality">
           <strong> Personality: </strong>
           <ul>
             <li>Energetic</li>
             <li>Enthusiastic</li>
           </ul>
+        </div>
+        <br>
+        <div>
           <strong> Favourite toy: </strong>
-          <p>Plushy Carrot</p>
+          <span>Plushy Carrot</span>
         </div>
       </div>
-      <div class="card">
-        <div class="border">
-          <img src="./assets/images/shadowCandid.jpg" alt="Shadow the cat">
+    </div>
+
+    <div class="card">
+      <img src="./assets/images/shadowCandid.jpg" alt="Shadow the cat">
+      <div class="content">
+        <div>
           <strong> Name: </strong>
-          <p>Shadow</p>
+          <span>Shadow</span>
+        </div>
+        <br>
+        <div>
           <strong> Type of animal: </strong>
-          <p>Cat</p>
+          <span>Cat</span>
+        </div>
+        <br>
+        <div>
           <strong> Age: </strong>
-          <p>1 and a half years</p>
+          <span>1 and a half years</span>
+        </div>
+        <br>
+        <div class="personality">
           <strong> Personality: </strong>
           <ul>
             <li>Energetic</li>
             <li>Curious</li>
             <li>Playful</li>
           </ul>
+        </div>
+        <br>
+        <div class="toys">
           <strong> Favourite toy: </strong>
-          <p>Feather wands</p>
-          <p>Balls</p>
+          <span>Feather Wands Balls</span>
         </div>
       </div>
-      <div class="card">
-        <div class="border">
-          <img src="./assets/images/hamster.jpg" alt="Amber the Hamster">
+    </div>
+
+    <div class="card">
+      <img src="./assets/images/hamster.jpg" alt="Amber the Hamster">
+      <div class="content">
+        <div>
           <strong> Name: </strong>
-          <p>Amber</p>
+          <span>Amber</span>
+        </div>
+        <br>
+        <div>
           <strong> Type of animal: </strong>
-          <p>Hamster</p>
+          <span>Hamster</span>
+        </div>
+        <br>
+        <div>
           <strong> Age: </strong>
-          <p>2 years</p>
+          <span>2 years</span>
+        </div>
+        <br>
+        <div class="personality">
           <strong> Personality: </strong>
           <ul>
             <li>Joyful</li>
             <li>Playful</li>
             <li>Freaky</li>
           </ul>
+        </div>
+        <br>
+        <div>
           <strong> Favourite toy: </strong>
-          <p>Willow Balls</p>
+          <span>Willow Balls</span>
         </div>
       </div>
-      <div class="card">
-        <div class="border">
-          <img src="./assets/images/maximus.jpg" alt="Maximus the cat">
+    </div>
+
+    <div class="card">
+      <img src="./assets/images/maximus.jpg" alt="Maximus the cat">
+      <div class="content">
+        <div>
           <strong> Name: </strong>
-          <p>Maximus</p>
+          <span>Maximus</span>
+        </div>
+        <br>
+        <div>
           <strong> Type of animal: </strong>
-          <p>Cat</p>
+          <span>Cat</span>
+        </div>
+        <br>
+        <div>
           <strong> Age: </strong>
-          <p>1.5 years</p>
+          <span>1.5 years</span>
+        </div>
+        <br>
+        <div class="personality">
           <strong> Personality: </strong>
           <ul>
             <li>Sassy</li>
-            <li>Hela smart</li>
+            <li>Hella Smart</li>
             <li>Moody</li>
           </ul>
+        </div>
+        <br>
+        <div>
           <strong> Favourite sport: </strong>
-          <p>Carrom</p>
+          <span>Carrom</span>
         </div>
       </div>
-      <div class="card">
-        <div class="border">
-          <img src="./assets/images/max.jpg" alt="Max the Dog">
+    </div>
+
+    <div class="card">
+      <img src="./assets/images/max.jpg" alt="Max the Dog">
+      <div class="content">
+        <div>
           <strong> Name: </strong>
-          <p>Max</p>
+          <span>Max</span>
+        </div>
+        <br>
+        <div>
           <strong> Type of animal: </strong>
-          <p>Dog</p>
+          <span>Dog</span>
+        </div>
+        <br>
+        <div>
           <strong> Age: </strong>
-          <p>3 years</p>
+          <span>3 years</span>
+        </div>
+        <br>
+        <div class="personality">
           <strong> Personality: </strong>
           <ul>
             <li>Friendly</li>
             <li>Energetic</li>
           </ul>
+        </div>
+        <br>
+        <div>
           <strong> Favourite toy: </strong>
-          <p>Chew Rope</p>
+          <span>Chew Rope</span>
         </div>
       </div>
-      <div class="card">
-        <div class="border">
-          <img src="./assets/images/oreo.jpg" alt="Oreo the cat">
+    </div>
+
+    <div class="card">
+      <img src="./assets/images/oreo.jpg" alt="Oreo the cat">
+      <div class="content">
+        <div>
           <strong> Name: </strong>
-          <p>Oreo</p>
+          <span>Oreo</span>
+        </div>
+        <br>
+        <div>
           <strong> Type of animal: </strong>
-          <p>Cat</p>
+          <span>Cat</span>
+        </div>
+        <br>
+        <div>
           <strong> Age: </strong>
-          <p>7 months</p>
+          <span>7 months</span>
+        </div>
+        <br>
+        <div class="personality">
           <strong> Personality: </strong>
           <ul>
             <li>Curious</li>
             <li>Lazy</li>
             <li>Sleepy</li>
           </ul>
+        </div>
+        <br>
+        <div>
           <strong> Favourite toy: </strong>
-          <p>Legs</p>
+          <span>Legs</span>
         </div>
       </div>
-      <div class="card">
-        <div class="border">
-          <img src="./assets/images/borf.jpg" alt="Borf the Dog">
+    </div>
+
+    <div class="card">
+      <img src="./assets/images/borf.jpg" alt="Borf the Dog">
+      <div class="content">
+        <div>
           <strong> Name: </strong>
-          <p>Borf</p>
+          <span>Borf</span>
+        </div>
+        <br>
+        <div>
           <strong> Type of animal: </strong>
-          <p>Dog</p>
+          <span>Dog</span>
+        </div>
+        <br>
+        <div>
           <strong> Age: </strong>
-          <p>10 years</p>
+          <span>10 years</span>
+        </div>
+        <br>
+        <div class="personality">
           <strong> Personality: </strong>
           <ul>
             <li>Lazy</li>
             <li>Friendly</li>
             <li>Fatty</li>
           </ul>
+        </div>
+        <br>
+        <div>
           <strong> Favourite toy: </strong>
-          <p>Squeaky Gloves</p>
+          <span>Squeaky Gloves</span>
         </div>
       </div>
-      <div class="card">
-        <div class="border">
-          <img src="./assets/images/pippa.jpg" alt="King Charles Cavalier">
+    </div>
+
+    <div class="card">
+      <img src="./assets/images/pippa.jpg" alt="King Charles Cavalier">
+      <div class="content">
+        <div>
           <strong> Name: </strong>
-          <p>Pippa</p>
+          <span>Pippa</span>
+        </div>
+        <br>
+        <div>
           <strong> Type of animal: </strong>
-          <p>Dog</p>
+          <span>Dog</span>
+        </div>
+        <br>
+        <div>
           <strong> Age: </strong>
-          <p>5 years</p>
+          <span>5 years</span>
+        </div>
+        <br>
+        <div class="personality">
           <strong> Personality: </strong>
           <ul>
             <li>Sleepy</li>
             <li>Hungry</li>
             <li>Barky</li>
           </ul>
+        </div>
+        <br>
+        <div>
           <strong> Favourite toy: </strong>
-          <p>Ball</p>
+          <span>Ball</span>
         </div>
       </div>
-      <div class="card">
-        <div class="border">
-          <img src="./assets/images/Grim.jpg" alt="Grim the Dog">
+    </div>
+
+    <div class="card">
+      <img src="./assets/images/Grim.jpg" alt="Grim the Dog">
+      <div class="content">
+        <div>
           <strong> Name: </strong>
-          <p>Grim</p>
+          <span>Grim</span>
+        </div>
+        <br>
+        <div>
           <strong> Type of animal: </strong>
-          <p>Dog</p>
+          <span>Dog</span>
+        </div>
+        <br>
+        <div>
           <strong> Age: </strong>
-          <p>4 years</p>
+          <span>4 years</span>
+        </div>
+        <br>
+        <div class="personality">
           <strong> Personality: </strong>
           <ul>
-            <li>Super Friendly</li>
+            <li>Friendly</li>
             <li>Energetic</li>
             <li>Intelligent</li>
           </ul>
+        </div>
+        <br>
+        <div>
           <strong> Favourite toy: </strong>
-          <p>Frisbee</p>
+          <span>Frisbee</span>
         </div>
       </div>
-      <!-- Add your pet above -->
     </div>
 
-    <!--Footer-->
-    <footer>
-      <div class="footer-line">
-        <p class="logo">MyPetSpotlight</p>
+    <!-- Add your pet above -->
 
-        <div class="social-media">
-          <p>Get in touch</p>
-          <ul>
-            <li class="list-item">
-              <a href=""><i class="fa-brands fa-facebook fa-2xl"></i></a>
-            </li>
-            <li class="list-item">
-              <a href=""><i class="fa-brands fa-twitter fa-2xl"></i></a>
-            </li>
-            <li class="list-item">
-              <a href=""><i class="fa-brands fa-tiktok fa-2xl"></i></a>
-            </li>
-            <li class="list-item">
-              <a href=""><i class="fa-brands fa-instagram fa-2xl"></i></a>
-            </li>
-            <li class="list-item">
-              <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
-            </li>
-          </ul>
-        </div>
-      </div>
+  </div>
 
-      <div class="copyright">
-        <p> Copyright © 2023 MyPetSpotlight. All Rights Reserved</p>
+  <!--Footer-->
+  <footer>
+    <div class="footer-line">
+      <p class="logo">MyPetSpotlight</p>
+
+      <div class="social-media">
+        <p>Get in touch</p>
+        <ul>
+          <li class="list-item">
+            <a href=""><i class="fa-brands fa-facebook fa-2xl"></i></a>
+          </li>
+          <li class="list-item">
+            <a href=""><i class="fa-brands fa-twitter fa-2xl"></i></a>
+          </li>
+          <li class="list-item">
+            <a href=""><i class="fa-brands fa-tiktok fa-2xl"></i></a>
+          </li>
+          <li class="list-item">
+            <a href=""><i class="fa-brands fa-instagram fa-2xl"></i></a>
+          </li>
+          <li class="list-item">
+            <a href=""><i class="fa-brands fa-github fa-2xl"></i></a>
+          </li>
+        </ul>
       </div>
-    </footer>
-  </main>
-  <script src="java.js"></script>
+    </div>
+
+    <div class="copyright">
+      <p> Copyright &copy; 2023 <span style="color: aqua;">MyPetSpotlight</span>. All Rights Reserved</p>
+    </div>
+  </footer>
+
 </body>
+
+<!-- script of slider -->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+  const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false
+    },
+    direction: 'horizontal',
+    loop: true,
+
+    // If we need pagination
+    pagination: {
+      clickable: true,
+      el: '.swiper-pagination',
+    },
+
+  });
+</script>
 
 </html>
