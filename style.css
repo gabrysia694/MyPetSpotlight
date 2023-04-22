@@ -2,19 +2,19 @@
 
 /* CSS for Scrollbar */
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 10px;
     color: transparent;
 }
 
 ::-webkit-scrollbar-track {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-	background-color: #f5f5f500;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #f5f5f500;
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #000000;
-	border: 2px solid #555555;
+    background-color: #000000;
+    border: 2px solid #555555;
     border-radius: 6px;
 }
 
@@ -31,14 +31,14 @@ body {
     position: absolute;
     top: 0;
     z-index: -1;
-  }
+}
 
 .swiper-slide img {
     height: 100vh;
     width: 100%;
-    overflow: hidden; 
-    display: flex; 
-    justify-content: center; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
     object-fit: cover;
 }
 
@@ -77,13 +77,13 @@ body {
     padding: 10px;
 }
 
-#petcommunity{
+#petcommunity {
     font-family: "Ubuntu", sans-serif;
     font-size: 40px;
     font-weight: 800;
 }
 
-#describe{
+#describe {
     padding: 30px;
     line-height: 35px;
     text-align: center;
@@ -92,7 +92,7 @@ body {
     font-weight: 500;
 }
 
-#submit{
+#submit {
     font-size: 25px;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -169,10 +169,10 @@ nav a:hover {
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 5px #7373b7f9,
-    0 0 6px #7373b7f9,
-    0 0 10px #7373b7f9,
-    0 0 18px #7373b7f9,
-    0 0 20px #7373b7f9;
+        0 0 6px #7373b7f9,
+        0 0 10px #7373b7f9,
+        0 0 18px #7373b7f9,
+        0 0 20px #7373b7f9;
     margin: 20px;
     border: 2px solid rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(20px);
@@ -193,6 +193,7 @@ nav a:hover {
     font-size: 1.2rem;
     margin: 2rem;
     padding: 2px;
+    line-height: 38px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,17 +203,51 @@ nav a:hover {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.card .content .personality{
+.content .name strong {
+    color: aquamarine;
+}
+
+.content .animal strong {
+    color: goldenrod;
+}
+
+.content .age strong {
+    color: cadetblue;
+}
+
+.content .personality {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.card .content ul {
-    padding: 5px;
-    margin: 7px auto auto;
+.content .personality strong {
+    color: coral;
+}
+
+.content ul {
+    padding: 0;
+    margin: 0 auto;
     line-height: 29px;
     flex-direction: column;
+}
+
+.content .toy strong {
+    color: chocolate;
+}
+
+.content .owner strong {
+    color: #4cf74c;
+}
+
+.content .owner a {
+    color: whitesmoke;
+}
+
+.content .owner a:hover {
+    text-decoration: none;
+    color: bisque;
+    font-size: 1.3rem;
 }
 
 footer {
@@ -278,11 +313,12 @@ footer {
 }
 
 .copyright {
-    background-color: rgba(13, 13,19, 0.712);
+    background-color: rgba(13, 13, 19, 0.712);
     display: flex;
     justify-content: center;
     font-size: small;
 }
+
 .copyright p {
     text-align: center;
     font-size: 14px;
@@ -293,15 +329,18 @@ footer {
 
 @media (max-width: 833px) {
 
-    .welcome h2{
+    .welcome h2 {
         font-size: 2.5em;
     }
-    #describe{
+
+    #describe {
         display: none;
     }
-    #petcommunity{
+
+    #petcommunity {
         font-size: 30px;
     }
+
     .logo {
         display: none;
     }
@@ -335,39 +374,48 @@ footer {
     .copyright {
         margin-top: 3px;
     }
+
     .copyright p {
         font-size: 13px;
     }
-    
+
 }
 
 @media (max-width:545px) {
-    .welcome h2{
+    .welcome h2 {
         font-size: 24px;
     }
-    #petcommunity, #submit{
+
+    #petcommunity,
+    #submit {
         font-size: 20px;
     }
-    .navbar-button{
+
+    .navbar-button {
         font-size: 20px;
     }
 }
 
-@media (max-width:375px){
-    .navbar-button{
+@media (max-width:375px) {
+    .navbar-button {
         font-size: 15px;
     }
+
     .social-media p {
         font-size: 15px;
-        margin-left:20px ;
+        margin-left: 20px;
     }
-    .copyright p{
+
+    .copyright p {
         font-size: 10px;
     }
-    .welcome h2{
+
+    .welcome h2 {
         font-size: 18px;
     }
-    #petcommunity, #submit{
+
+    #petcommunity,
+    #submit {
         font-size: 20px;
     }
 }
