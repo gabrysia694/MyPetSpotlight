@@ -16,7 +16,7 @@ Share your pet's story with the world and connect with other pet owners.
 
 # Getting Started ⭐
 
-To get started with My Pet Spotlight, simply visit our website at https://mypetspotlight.netlify.app/. From there, you can browse through existing pet profiles or create your own. 
+To get started with My Pet Spotlight, simply visit our <a href="https://mypetspotlight.netlify.app/">website<a/>. From there, you can browse through existing pet profiles or create your own. 
 
 To create a pet profile, click the "Add your pet" button and contribute with your pet's information, including their name, breed, age, and a photo.
 
@@ -30,18 +30,18 @@ Once your profile is created, you can share it with your friends and family thro
 
 # Contributing ✨
 
-We welcome contributions from the community to help improve My Pet Spotlight. If you have any ideas for new features or would like to report a bug, please submit an issue on our GitHub repository at https://github.com/gabrysia694/MyPetSpotlight. 
+We welcome contributions from the community to help improve My Pet Spotlight. If you have any ideas for new features or would like to report a bug, please submit an <a href="https://github.com/gabrysia694/MyPetSpotlight/issues">issue<a/> on our GitHub <a href="https://github.com/gabrysia694/MyPetSpotlight">repository <a/>. 
 
-If you would like to contribute code to the project, please fork our repository and submit a pull request. We appreciate all contributions and will review them in a timely manner.
+If you would like to contribute code to the project, please fork our <a href="https://github.com/gabrysia694/MyPetSpotlight">repository<a/> and submit a <a href="https://github.com/gabrysia694/MyPetSpotlight/pulls"> pull request<a/>. We appreciate all contributions and will review them in a timely manner.
 <strong> How to Contribute </strong>
 <br>
 We welcome contributions from the community! To contribute to MyPetSpotlight, please follow these steps:
 <ol>
-  <li> Fork this repository. </li>
+  <li> Fork this <a href="https://github.com/gabrysia694/MyPetSpotlight">repository<a/>. </li>
   <li> Create a new branch for your feature or bug fix. </li>
-  <li> Read CONTRIBUTING.md carefully. </li>
+  <li> Read <a href="https://github.com/gabrysia694/MyPetSpotlight/blob/main/CONTRIBUTING.md">CONTRIBUTING.md<a/> carefully. </li>
   <li> Make your changes and test them thoroughly. </li>
-  <li> Submit a pull request with a clear description of your changes. </li>
+  <li> Submit a <a href="https://github.com/gabrysia694/MyPetSpotlight/pulls">pull request<a/> with a clear description of your changes. </li>
 </ol>
 
 
@@ -55,7 +55,7 @@ If you have any questions or need help with My Pet Spotlight, please contact us 
 
 # License 📝
 
-My Pet Spotlight is licensed under the MIT License. See the LICENSE file for more information.
+My Pet Spotlight is licensed under the MIT License. See the <a href="https://github.com/gabrysia694/MyPetSpotlight/blob/main/LICENSE">LICENSE file<a/> for more information.
 
 Thank you for using My Pet Spotlight! We hope you and your furry friends enjoy using our website.
 
