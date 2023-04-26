@@ -49,9 +49,11 @@ We welcome contributions from the community! To contribute to MyPetSpotlight, pl
 
 If you have any questions or need help with My Pet Spotlight, please contact us at support@mypetspotlight.com. We are always happy to assist you and answer any questions you may have.
 
-# Credits
-
-- [Gabrysia](https://github.com/gabrysia694)
+# Contributors
+  
+<a href="https://github.com/gabrysia694/MyPetSpotlight/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=gabrysia694/MyPetSpotlight" />
+</a>
 
 # License 📝
 
