@@ -24,6 +24,7 @@ body {
     overflow-x: hidden;
     background: url(./assets/slider_img/background.png);
     margin: 0;
+    text-shadow: -1px 0px 0px black;
 }
 
 .swiper {
