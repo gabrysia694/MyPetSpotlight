@@ -184,7 +184,7 @@ nav a:hover {
     flex-direction: column;
     width: 350px;
     /* adjust the width as needed */
-    height: auto;
+    height: 37.1875em;
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 0 5px #7373b7f9,
