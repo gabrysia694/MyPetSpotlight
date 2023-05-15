@@ -39,6 +39,7 @@
 /* CSS of all classes in the same order of HTML  */
 
 body {
+    font-family: 'Ubuntu', sans-serif;
     overflow-x: hidden;
     background: url(../assets/slider_img/background.png);
     margin: 0;
@@ -165,36 +166,31 @@ nav a:hover {
 }
 
 
-#list {
+#container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     grid-template-columns: repeat(auto-fill, 350px);
     grid-gap: 30px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
+/* ************** card ****************** */
+
 .card {
-    z-index: 10;
+    z-index: 2;
     color: aliceblue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     width: 350px;
-    /* adjust the width as needed */
-    height: 37.1875em;
     border-radius: 15px;
+    margin: 20px;
     background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 0.7);
     box-shadow: 0 0 5px #7373b7f9,
         0 0 6px #7373b7f9,
         0 0 10px #7373b7f9,
         0 0 18px #7373b7f9,
         0 0 20px #7373b7f9;
-    margin: 20px;
-    border: 2px solid rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(20px);
 }
 
 .card img {
@@ -208,68 +204,64 @@ nav a:hover {
 }
 
 .content {
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 1.2rem;
-    margin: 2rem;
-    padding: 2px;
-    line-height: 38px;
+    font-family: Ubuntu, sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    flex: 1;
+    align-items: center;
+    line-height: 5px;
+    padding: 10px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content span  {
+    font-size: 1.5rem;
 }
 
-.content strong {
-    font-family: 'Josefin Sans', sans-serif;
-}
-
-.content .name strong {
+.name {
     color: aquamarine;
 }
 
-.content .animal strong {
+.animal {
     color: goldenrod;
 }
 
-.content .age strong {
+.age {
     color: cadetblue;
 }
-
-.content .personality {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.content .personality strong {
+.personality {
     color: coral;
 }
-
-.content ul {
-    padding: 0 0 0 34px;
-    margin: 0 auto 0 -10px;
-    line-height: 29px;
+ul li{
+    text-align: center;
+    /* list-style: none; */
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-right: 1.5rem;
     flex-direction: column;
 }
-
-.content .toy strong {
+.toy {
     color: chocolate;
 }
-
-.content .owner strong {
+.owner {
     color: #4cf74c;
 }
 
-.content .owner a {
+.owner a {
     color: whitesmoke;
 }
 
-.content .owner a:hover {
+.owner a:hover {
     text-decoration: none;
     color: bisque;
     font-size: 1.3rem;
 }
+
+/* ************** End card ****************** */
+
 
 footer {
     color: whitesmoke;
