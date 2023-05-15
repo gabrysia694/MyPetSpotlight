@@ -1,22 +1,7 @@
-// import { animals } from "./Pets";
-
-// let animals = [
-//   {
-//     id: 1,
-//     name: "Luna",
-//     imgSrc: "./assets/images/luna.jpg",
-//     type: "Cat",
-//     age: "4 years",
-//     character: ["Curious", "Affectionate", "Fast"],
-//     favToy: "Mouse",
-//     owner: "Gabriela",
-//     ownerUrl: "https://github.com/gabrysia694",
-//   },
-// ];
 
 
 // console.log(animals);
-let container = document.getElementById("container");
+let container = document.getElementById("list");
 /// Load the HTML template file using fetch
 fetch("../card.html")
   .then((response) => response.text())
