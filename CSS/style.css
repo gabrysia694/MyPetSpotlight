@@ -61,6 +61,30 @@ body {
     object-fit: cover;
 }
 
+#back-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    display: none;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 28px;
+    border-radius: 50px;
+  }
+  
+  #back-to-top-btn:hover {
+    background-color: #555;
+  }
+  
+  #back-to-top-btn i {
+    margin-right: 5px;
+  }  
+
 .welcome {
     display: block;
     background-color: rgba(0, 0, 0, 0.559);
