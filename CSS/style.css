@@ -82,7 +82,7 @@ body {
   }
   
   #back-to-top-btn i {
-    margin-right: 5px;
+    margin-right: 1px;
   }  
 
 .welcome {
@@ -271,10 +271,11 @@ nav a:hover {
 }
 
 .content ul {
-    padding: 0 0 0 34px;
+    max-height: 87px;
+    overflow-y: auto;
+    padding: 0 5px 0 34px;
     margin: 0 auto 0 -10px;
     line-height: 29px;
-    flex-direction: column;
 }
 
 .content .toy strong {
@@ -435,6 +436,15 @@ footer {
     #submit {
         font-size: 20px;
     }
+
+    #back-to-top-btn {
+        background-color: #33333394;
+        width: 20px;
+    }
+
+    #back-to-top-btn i {
+        margin-left: -6px;
+      }
 
     .navbar-button {
         font-size: 20px;
