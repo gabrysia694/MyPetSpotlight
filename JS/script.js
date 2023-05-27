@@ -8,18 +8,6 @@ backToTopBtn.addEventListener('click', function() {
   });
 });
 
-  cardDivs.forEach(cardDiv => {
-  const liElements = cardDiv.querySelectorAll('li');
-  const liCount = liElements.length;
-  const ulElements = cardDiv.querySelectorAll('ul');
-
-  if (liCount > 3) {
-    ulElements.forEach(ulElement => {
-      ulElement.style.cssText = "height: 90px; overflow-y: scroll; padding-right: 10px;";
-    });
-  }
-});
-
 window.addEventListener('scroll', function() {
   var backToTopBtn = document.getElementById('back-to-top-btn');
   if (window.pageYOffset > 20) {

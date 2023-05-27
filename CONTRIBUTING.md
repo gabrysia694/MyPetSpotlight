@@ -1,53 +1,51 @@
-<strong> Contributing to MyPetSpotlight </strong>
+# Contributing to MyPetSpotlight
 
 Thank you for your interest in contributing to MyPetSpotlight! <br>
 We welcome contributions from the community to help us improve and expand our pet lovers community.
 
-Template:
+## Prerequisites
 
-```
-<div class="card">
-      <img src="./assets/images/nameofyourpicture.jpg" alt="description of your picture">
-      <div class="content">
-        <div class="name">
-          <strong> Name:</strong>
-          <span></span>
-        </div>
+Before you begin, make sure you have the following installed:
 
-        <div class="animal">
-          <strong> Type of animal:</strong>
-          <span></span>
-        </div>
+- [Node.js](https://nodejs.org/en/download) (version 18.6.0 or higher)
 
-        <div class="age">
-          <strong> Age:</strong>
-          <span> years</span>
-        </div>
+## Setup
 
-        <div class="personality">
-          <strong> Personality:  </strong>
-          <ul>
-            <li> </li>
-            <li> </li>
-          </ul>
-        </div>
+1. Clone the repository:
 
-        <div class="toy">
-          <strong> Favourite toy: </strong>
-          <span>  </span>
-        </div>
+   ```shell
+   git clone https://github.com/gabrysia694/MyPetSpotlight.git
 
-        <div class="owner">
-          <strong> Owner: </strong>
-          <span> <a href="https://github.com/username"> FirstName </a> </span>
-        </div>
-      </div>
-    </div>
+2. Navigate to the project directory:
+   ```
+     cd MyPetSpotlight
+   ```
+3. Install project dependencies:
+   ```
+     npm install 
+   ```
 
-```
+## Add Your Pet
 
-Please fill out the following template by providing a name of your pet, type of the animal, age in years, couple personality traits and a favourite toy. <br>
-Then add your code below the commented location within the `index.html` file. <br>
-Share a picture of your pet by simply uploading it to the assets/images folder and then include the link along with a description in the <br> `<img src="" alt="">`.
+ - Template :
 
+    ```
+    {
+       imgURL: './assets/images/pet_image_name.jpg',
+       altName: 'Alternate text for pet image',
+       name: 'Pet Name',
+       type: 'Type Of your Pet',
+       age: 'Age of your Pet',
+       personalities:  ['Personality1','Personality2','Personality3'],
+       toy: 'Fav Toy of your Pet',
+       ownerURL: 'https://github.com/your-username',
+       owner:  'Your First Name'
+    }
+    ```
+
+- Please fill out the following template by providing a name of your pet, type of the animal, age in years, couple personality traits and a favourite toy. <br>
+- Then add your code below the commented location within the JS/`data.js` file. <br>
+- Share a picture of your pet by simply uploading it to the assets/images folder.
+
+If you have any questions or need further assistance, feel free to reach out. Happy coding!<br>
 Thank you for contributing to MyPetSpotlight!
