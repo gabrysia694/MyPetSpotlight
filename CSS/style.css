@@ -40,7 +40,8 @@
 
 body {
     overflow-x: hidden;
-    background: url(../assets/slider_img/background.png);
+    background-color: #1A1A30;
+    background-image: url(../assets/slider_img/transparent-bg.png);
     margin: 0;
     text-shadow: -1px 0px 0px black;
 }
@@ -182,10 +183,52 @@ nav a:hover {
 
 #photo {
     display: block;
-    margin: 0 auto 56px auto;
-    width: 100vw;
+    margin: 0 auto 0 auto;
+    width: 100%;
     object-fit: cover;
     height: 100vh;
+}
+
+#petType {
+    margin: 0;
+    padding: 0;
+    height: 70px;
+    width: 100%;
+    background-color: #242439ed;
+    z-index: 20;
+
+}
+
+#petType ul {
+    height: 70px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#petType ul li:hover {
+    cursor: pointer;
+}
+
+#petType a {
+    color: rgb(215, 255, 238);
+}
+
+#petType a.active {
+    color: #4cf74c;
+    text-decoration: underline;
+}
+
+#petType.fixed {
+    position: fixed;
+    top: 0;
 }
 
 
@@ -221,15 +264,61 @@ nav a:hover {
     backdrop-filter: blur(20px);
 }
 
-.card img {
+.card .image{
+    position: relative;
     width: 100%;
     height: 200px;
-    /* adjust the height as needed */
+    max-height: 300px;
+    padding-bottom: 0
+}
+
+.loader {
+    margin: auto;
+    position: relative;
+    top: 40%;
+    font-size: 16px;
+    background: rgba(0, 0, 0, 0.2);
+    width: 2.8em;
+    height: 2.8em;
+    border-radius: 50%;
+}
+
+.loader::before {
+    content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 50%;
+      border: 3px solid transparent;
+      border-left-color: #2ecc71;
+      border-top-color: #2ecc71;
+      animation: spin 1s infinite ease-in-out;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg); }
+    100% {
+      transform: rotate(360deg); } }
+
+.card img {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 200px;
     max-height: 300px;
     object-fit: cover;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
+
+.loaded {
+    opacity: 1 !important; 
+    transition: opacity 0.3s ease-in-out;
+  }
 
 .content {
     font-family: 'Ubuntu', sans-serif;

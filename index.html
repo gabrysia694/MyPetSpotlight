@@ -9,18 +9,13 @@
   <!-- Open Graph Tags -->
   <meta property="og:title" content="My Pet Spotlight">
   <meta property="og:url" content="https://mypetspotlight.netlify.app">
-  <meta property="og:description" content="We are excited to provide you with a platform where you can showcase your
-    furry friends and their unique personalities. Our website allows you to submit your pet's name, age, and favourite
-    toy, giving them the spotlight they deserve. Whether you have a playful pup or a lazy feline, we want to see them
-    all! Join us in celebrating the love and joy that our pets bring into our lives.">
+  <meta property="og:description" content="Join us in giving your furry friends the spotlight they deserve. Showcase their unique personalities. Celebrate the love and joy our pets bring!">
   <meta property="og:type" content="website">
-  <meta property="og:image"
-    content="https://media.istockphoto.com/id/1296353202/photo/group-of-pets-posing-around-a-border-collie-dog-cat-ferret-rabbit-bird-fish-rodent.jpg?s=612x612&w=0&k=20&c=l4UJze9hXcNABS_3QJcaOU07R1pcuV3L7w_IJTu9o2c=">
+  <meta property="og:image" content="https://github.com/gabrysia694/MyPetSpotlight/assets/95538354/2c1561d3-06f1-4e4d-b064-a275ab627288" />
 
   <title>MyPetSpotlight</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-  <script src="https://kit.fontawesome.com/198d543dbf.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./CSS/style.css" />
   <link rel="icon" type="image/x-icon" href="./assets/icons/owner.ico">
 </head>
@@ -66,12 +61,26 @@
   </div>
   <img id="photo" alt="" />
 
+  <!-- Pet Type Section  -->
+
+  <div id="petType">
+    <ul>
+      <li><a data-filter="all">All</a></li>
+      <li><a data-filter="Dog">Dogs</a></li>
+      <li><a data-filter="Cat">Cats</a></li>
+      <li><a data-filter="others">Others</a></li>
+    </ul>
+  </div>
+
   <!-- Pet-Card-Template -->
 
   <div id="list">
     <script id="pet-card-template" type="text/x-handlebars-template">
-      <div class="card">
-        <img src="{{ imgURL }}" alt="{{ altName }}" >
+    <div class="card" data-pet-type="{{type}}">
+      <div class="image">
+        <div class="loader"></div>
+        <img data-src="{{ imgURL }}" alt="{{ altName }}" >
+      </div> 
       <div class="content">
         <div class="name">
           <strong> Name: </strong>
@@ -155,8 +164,10 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/handlebars@4.7.7/dist/handlebars.min.js"></script>
+<script src="https://kit.fontawesome.com/198d543dbf.js" crossorigin="anonymous"></script>
 <script src="./JS/data.js"></script>
 <script src="./JS/slider.js"></script>
 <script src="./JS/script.js"></script>
+<script src="./JS/loader.js"></script>
 
 </html>
