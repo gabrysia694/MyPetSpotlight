@@ -32,7 +32,7 @@ window.addEventListener('DOMContentLoaded', function() {
   petTypesLinks.forEach(function(type) {
     type.addEventListener('click', function(event) {
       event.preventDefault();
-      var filter = type.getAttribute('data-filter');
+      var filter = type.getAttribute('data-filter').toUpperCase();
 
       petTypesLinks.forEach(function(link) {
         link.classList.remove('active'); 
@@ -42,16 +42,22 @@ window.addEventListener('DOMContentLoaded', function() {
 
       // Show/hide pet cards based on the selected filter
       petCards.forEach(function(card) {
-        var petType = card.getAttribute('data-pet-type');
+        var petType = card.getAttribute('data-pet-type').toUpperCase();
 
-        if (filter === 'all' || (filter === 'Dog' && petType === 'Dog') || (filter === 'Cat' && petType === 'Cat') || (filter === 'others' && petType !== 'Dog' && petType !== 'Cat')) {
+        if (filter === 'ALL' || (filter === 'DOG' && petType === 'DOG') || (filter === 'CAT' && petType === 'CAT') || (filter === 'OTHERS' && petType !== 'DOG' && petType !== 'CAT')) {
           card.style.display = 'block';
         } else {
           card.style.display = 'none';
         }
       });
+      var petSection = document.getElementById('petType');
+      var offsetTop = window.innerHeight;
+      window.scrollTo({
+        top: offsetTop,
+        behavior: 'smooth'
+      });
     });
   });
   var allCategory = document.querySelector('#petType a[data-filter="all"]');
-allCategory.classList.add('active');
+  allCategory.classList.add('active');
 });
