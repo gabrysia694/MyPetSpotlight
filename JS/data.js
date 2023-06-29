@@ -366,9 +366,20 @@ document.addEventListener('DOMContentLoaded', function() {
             ownerURL: 'https://github.com/RaghavGoel01',
             owner:  'Raghav'
         },
+        {
+            imgURL: './assets/images/mittu_cat.jpg',
+            altName: 'Mittu Pic',
+            name: 'Mittu',
+            type: 'Cat',
+            age: '2 years',
+            personalities:  ['sweet','cute'],
+            toy: 'ball',
+            ownerURL: 'https://github.com/AnandRP2030',
+            owner:  'Anand'
+        },
 
 
-        // ADD YOUR PET HERE 
+        // ADD YOUR PET HERE
 
 
     ];
