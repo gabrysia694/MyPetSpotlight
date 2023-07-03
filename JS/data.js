@@ -377,6 +377,17 @@ document.addEventListener('DOMContentLoaded', function() {
             ownerURL: 'https://github.com/AnandRP2030',
             owner:  'Anand'
         },
+        {
+            imgURL: './assets/images/ash.jpg',
+            altName: 'Ash Cutie',
+            name: 'Ash',
+            type: 'Dog',
+            age: '3 years',
+            personalities:  ['Loyal','Friendly','Foody'],
+            toy: 'Frisbee',
+            ownerURL: 'https://github.com/vishalsingh2972',
+            owner:  'Vishal'
+         }
 
 
         // ADD YOUR PET HERE
