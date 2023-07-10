@@ -387,8 +387,19 @@ document.addEventListener('DOMContentLoaded', function() {
             toy: 'Frisbee',
             ownerURL: 'https://github.com/vishalsingh2972',
             owner:  'Vishal'
-         }
+         },
 
+         {
+            imgURL: './assets/images/vee.jpg',
+            altName: 'Vee Dog',
+            name: 'Vee',
+            type: 'Dog',
+            age: '2 years',
+            personalities: ['Sleepy','Clingy','Curious'],
+            toy: 'Sticks',
+            ownerURL: 'https://github.com/vanshb03',
+            owner:  'Vansh'
+         }
 
         // ADD YOUR PET HERE
 
