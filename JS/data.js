@@ -399,7 +399,19 @@ document.addEventListener('DOMContentLoaded', function() {
             toy: 'Sticks',
             ownerURL: 'https://github.com/vanshb03',
             owner:  'Vansh'
-         }
+         },
+
+         {
+            imgURL: './assets/images/Cesar.jpg',
+            altName: 'Cesar the Dog',
+            name: 'Cesar',
+            type: 'Dog',
+            age: '1 year',
+            personalities:  ['Playful','Adoring','mischievous'],
+            toy: 'Dog bone',
+            ownerURL: 'https://github.com/RuchirDixit',
+            owner:  'Ruchir'
+        },
 
         // ADD YOUR PET HERE
 
