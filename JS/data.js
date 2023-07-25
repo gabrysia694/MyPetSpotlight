@@ -398,52 +398,64 @@ document.addEventListener("DOMContentLoaded", function () {
       ownerURL: "https://github.com/vishalsingh2972",
       owner: "Vishal",
     },
-         {
-            imgURL: './assets/images/vee.jpg',
-            altName: 'Vee Dog',
-            name: 'Vee',
-            type: 'Dog',
-            age: '2 years',
-            personalities: ['Sleepy','Clingy','Curious'],
-            toy: 'Sticks',
-            ownerURL: 'https://github.com/vanshb03',
-            owner:  'Vansh'
-         },
+    {
+      imgURL: "./assets/images/vee.jpg",
+      altName: "Vee Dog",
+      name: "Vee",
+      type: "Dog",
+      age: "2 years",
+      personalities: ["Sleepy", "Clingy", "Curious"],
+      toy: "Sticks",
+      ownerURL: "https://github.com/vanshb03",
+      owner: "Vansh",
+    },
 
-         {
-            imgURL: './assets/images/Cesar.jpg',
-            altName: 'Cesar the Dog',
-            name: 'Cesar',
-            type: 'Dog',
-            age: '1 year',
-            personalities:  ['Playful','Adoring','mischievous'],
-            toy: 'Dog bone',
-            ownerURL: 'https://github.com/RuchirDixit',
-            owner:  'Ruchir'
-        },
+    {
+      imgURL: "./assets/images/Cesar.jpg",
+      altName: "Cesar the Dog",
+      name: "Cesar",
+      type: "Dog",
+      age: "1 year",
+      personalities: ["Playful", "Adoring", "mischievous"],
+      toy: "Dog bone",
+      ownerURL: "https://github.com/RuchirDixit",
+      owner: "Ruchir",
+    },
+    {
+      imgURL: "./assets/images/roxy.jpg",
+      altName: "Roxy",
+      name: "Roxy",
+      type: "Dog",
+      age: "1 year",
+      personalities: ["Playful", "Adoring", "Hungry"],
+      toy: "Sticks",
+      ownerURL: "https://github.com/AswinSaj",
+      owner: "Aswin",
+    },
 
     // ADD YOUR PET HERE
-  ]
+  ];
 
   function shuffleArray(array) {
     for (var i = array.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1))
-      var temp = array[i]
-      array[i] = array[j]
-      array[j] = temp
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = array[i];
+      array[i] = array[j];
+      array[j] = temp;
     }
   }
 
-  shuffleArray(pets)
+  shuffleArray(pets);
 
-  const petCardTemplate = document.getElementById("pet-card-template").innerHTML
-  const compiledTemplate = Handlebars.compile(petCardTemplate)
+  const petCardTemplate =
+    document.getElementById("pet-card-template").innerHTML;
+  const compiledTemplate = Handlebars.compile(petCardTemplate);
 
-  let petCardsHTML = ""
+  let petCardsHTML = "";
   pets.forEach((pet) => {
-    petCardsHTML += compiledTemplate(pet)
-  })
+    petCardsHTML += compiledTemplate(pet);
+  });
 
-  const petCardContainer = document.querySelector("#list")
-  petCardContainer.innerHTML = petCardsHTML
-})
+  const petCardContainer = document.querySelector("#list");
+  petCardContainer.innerHTML = petCardsHTML;
+});
