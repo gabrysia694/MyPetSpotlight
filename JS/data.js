@@ -377,7 +377,17 @@ document.addEventListener('DOMContentLoaded', function() {
             ownerURL: 'https://github.com/AnandRP2030',
             owner:  'Anand'
         },
-
+         {
+            imgURL: './assets/images/tom_cat.jpg',
+            altName: 'Tom',
+            name: 'Tom',
+            type: 'Cat',
+            age: '1 year',
+            personalities:  ['sleepy','hungry'],
+            toy: 'hands',
+            ownerURL: 'https://github.com/Ananya-Jha1208',
+            owner:  'Ananya'
+        }
 
         // ADD YOUR PET HERE
 
