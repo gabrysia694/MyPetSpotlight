@@ -440,6 +440,17 @@ document.addEventListener("DOMContentLoaded", function () {
       ownerURL: "https://github.com/AswinSaj",
       owner: "Aswin",
     },
+    {
+      imgURL: "./assets/images/Kavin.jpg",
+      altName: "Kavin",
+      name: "Kavin",
+      type: "Dog",
+      age: "3 year",
+      personalities: ["Playful", "Adoring", "Curious"],
+      toy: "Ball",
+      ownerURL: "https://github.com/venk404",
+      owner: "Venkatesh",
+    }
 
     // ADD YOUR PET HERE
   ];
