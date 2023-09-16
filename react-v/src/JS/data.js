@@ -1,4 +1,4 @@
-    const pets = [
+    export const pets = [
 
         {
             imgURL: 'luna.JPG',
@@ -403,20 +403,54 @@
 
 
     ];
-   
-    // function shuffleArray(array) {
-    //     for (var i = array.length - 1; i > 0; i--) {
-    //       var j = Math.floor(Math.random() * (i + 1));
-    //       var temp = array[i];
-    //       array[i] = array[j];
-    //       array[j] = temp;
-    //     }
-    // }
-    
-function GetData(){
-    // shuffleArray(pets);   
-    return pets;
-}
-export default pets;
+    export const describeData = `We are excited to provide you with a platform where you can showcase
+    your furry friends and their unique personalities. Our website allows
+    you to submit your pet's name, age, and favourite toy, giving them the
+    spotlight they deserve. Whether you have a playful pup or a lazy
+    feline, we want to see them all! Join us in celebrating the love and
+    joy that our pets bring into our lives.`;
 
+    function shuffleArray(array) {
+        for (var i = array.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1));
+          var temp = array[i];
+          array[i] = array[j];
+          array[j] = temp;
+        }
+    }
     
+export const GetData = (value) => {
+    let newPetsData = null;
+    if(value == "all") newPetsData = pets;
+    else if(value === "Dog" || value === "Cat") newPetsData = pets.filter(animal => animal.type === value);
+    else newPetsData = pets.filter(animal => (animal.type !== "Cat" && animal.type !== "Dog"))
+    shuffleArray(newPetsData);   
+    return  newPetsData;
+}
+
+export const animalTypeObj = [
+    {
+        type:"all",
+        name:"All"
+    },
+    {
+        type:"Cat",
+        name:"Cats"
+    },
+    {
+        type:"Dog",
+        name:"Dogs"
+    },
+    {
+        type:"Others",
+        name:"Others"
+    }
+];
+
+export const CarouselImageData = [
+    {imgUrl : "cat.jpg"},
+    {imgUrl : "dog.jpg"},
+    {imgUrl : "hamster1.jpg"},
+    {imgUrl : "dog1.jpg"},
+    {imgUrl : "hamster.jpg"}
+];

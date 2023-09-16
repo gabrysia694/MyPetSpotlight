@@ -1,13 +1,12 @@
 import React from 'react';
-import Swip from './Components/Header/Swiper';
+import CarouselComp from './Components/Carosel/Carosel';
 import Main from './Components/Main/Main';
 import Footer from './Components/Footer/Footer';
-
 
 function App() {
   return (
     <div className="App">
-      <Swip />
+      <CarouselComp />
       <Main />
       <Footer/>
     </div>
