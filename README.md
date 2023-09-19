@@ -1,65 +1,70 @@
-<p align="center">
-<img src="https://github.com/its-your-invi/MyPetSpotlight/assets/95538354/842908b8-39e4-4290-a757-5e2c568b6753" height="400px" width="750px" > 
-</p>  
-<h2 align="center">
-    A website to showcase and celebrate our beloved pets!
-</h2>
-<h3 align="center">
-    Owner: <a href="https://github.com/gabrysia694">Gabrysia</a>
-</h3>
+# Getting Started with Create React App
 
-## 🐾 Description
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Welcome to **My Pet Spotlight**! This website allows pet owners to create profiles for their beloved pets and showcase them to the world. Our mission is to provide *a fun and interactive platform* for pet owners to connect with each other and celebrate their furry friends. 🌟🐶🐱
+## Available Scripts
 
-A pet lovers community where you can showcase your furry friends and their *unique personalities*. Our website allows you to submit your pet's name, age, and favorite toy, giving them the *spotlight they deserve*. Whether you have a playful pup or a lazy feline, we want to see them all! Join us in celebrating the **love and joy** that our pets bring into our lives.🐾❤️
+In the project directory, you can run:
 
-## ⭐ Features
+### `npm start`
 
-- **Submit** your pet's information, including name, age, personality traits, and favorite toy, to be featured on the website. 🐾🌐
-- **Browse** through a collection of pets from around the world and read their unique stories. 📸🐕
-- **Share** your pet's story with the world and connect with other pet owners.💌❤️
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## 🚀 Getting Started 
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-To get started with My Pet Spotlight, simply visit our [website](https://mypetspotlight.netlify.app/). From there, you can browse through existing pet profiles or create your own.
+### `npm test`
 
-To create a pet profile, click the "Add your pet" button and contribute with your pet's information, including their name, breed, age, and a photo.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Once your profile is created, you can share it with your friends and family through social media. You can also view and interact with other pet profiles on our website.
+### `npm run build`
 
-## 🔧 Used Technologies
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-- ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
-- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-- ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) 
-- ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## 💡 Contributing
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-We welcome contributions from the community to help improve My Pet Spotlight. If you have any ideas for new features or would like to report a bug, please submit an [issue](https://github.com/gabrysia694/MyPetSpotlight/issues) on our GitHub [repository](https://github.com/gabrysia694/MyPetSpotlight).
+### `npm run eject`
 
-<ins> **How to Contribute** : <ins> 
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-1. 🍴 Fork this [repository](https://github.com/gabrysia694/MyPetSpotlight).
-2. 🌿 Create a new branch for your feature or bug fix.
-3. 🔍 Read [CONTRIBUTING.md](https://github.com/gabrysia694/MyPetSpotlight/blob/main/CONTRIBUTING.md) carefully.
-4. 🚀 Make your changes and test them thoroughly.
-5. 📩 Submit a [pull request](https://github.com/gabrysia694/MyPetSpotlight/pulls) with a clear description of your changes.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## 📞 Support
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-If you have any questions or need help with My Pet Spotlight, please contact us at support@mypetspotlight.com. 
-  
-We are always happy to assist you and answer any questions you may have.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 👥 Contributors
+## Learn More
 
-[![Contributors](https://contrib.rocks/image?repo=gabrysia694/MyPetSpotlight)](https://github.com/gabrysia694/MyPetSpotlight/graphs/contributors)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## 📝 License
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-My Pet Spotlight is licensed under the MIT License. See the [LICENSE file](https://github.com/gabrysia694/MyPetSpotlight/blob/main/LICENSE) for more information.
+### Code Splitting
 
-Thank you for using My Pet Spotlight! We hope you and your furry friends enjoy using our website.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

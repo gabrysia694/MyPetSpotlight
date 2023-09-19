@@ -1,4 +1,4 @@
-import { GetData, animalTypeObj } from '../../JS/data';
+import { GetData, animalTypeObj } from '../../dataSrc/data';
 import React, { useState } from 'react';
 import Card from '../Card/card';
 

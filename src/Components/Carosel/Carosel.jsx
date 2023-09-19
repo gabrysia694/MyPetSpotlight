@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import { CarouselImageData } from "../../JS/data";
+import { CarouselImageData } from "../../dataSrc/data";
 
 function CarouselComp(){
 

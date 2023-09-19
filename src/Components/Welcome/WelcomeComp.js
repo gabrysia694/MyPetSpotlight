@@ -1,4 +1,4 @@
-import { describeData } from '../../JS/data';
+import { describeData } from '../../dataSrc/data';
 import React from 'react';
 import { Modal } from '../Model/model';
 
